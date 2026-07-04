@@ -1,130 +1,141 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ismereli Naturals</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ismereli Naturals</title>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f4f9f4;
-    }
+<link rel="stylesheet" href="style.css">
 
-    header {
-      background: #2e7d32;
-      color: white;
-      text-align: center;
-      padding: 20px;
-    }
-
-    nav {
-      background: #1b5e20;
-      text-align: center;
-      padding: 10px;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 10px;
-      font-weight: bold;
-    }
-
-    .hero {
-      text-align: center;
-      padding: 50px 20px;
-      background: white;
-    }
-
-    .hero h1 {
-      color: #2e7d32;
-      font-size: 40px;
-    }
-
-    .products {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      padding: 20px;
-    }
-
-    .card {
-      background: white;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-      text-align: center;
-    }
-
-    .card h3 {
-      color: #2e7d32;
-    }
-
-    .btn {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 10px 15px;
-      background: #2e7d32;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-    }
-
-    footer {
-      background: #1b5e20;
-      color: white;
-      text-align: center;
-      padding: 15px;
-      margin-top: 20px;
-    }
-  </style>
 </head>
 
 <body>
 
 <header>
-  <h1>Ismereli Naturals 🌿</h1>
-  <p>Suplementos y productos naturales</p>
+    <div class="logo">
+        🌿 <strong>Ismereli Naturals</strong>
+    </div>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
 </header>
 
-<nav>
-  <a href="#">Inicio</a>
-  <a href="#">Productos</a>
-  <a href="#">Contacto</a>
-</nav>
+<section class="hero" id="inicio">
 
-<section class="hero">
-  <h1>Bienvenidos</h1>
-  <p>Bienestar natural para tu vida diaria</p>
-</section>
+<h1>Bienestar Natural para Toda la Familia</h1>
 
-<section class="products">
+<p>
+Suplementos naturales diseñados para apoyar tu bienestar diario.
+</p>
 
-  <div class="card">
-    <h3>Moringa</h3>
-    <p>Producto natural para el bienestar</p>
-    <a class="btn" href="https://wa.me/14255082960?text=Hola%20quiero%20comprar%20Moringa">Comprar por WhatsApp</a>
-  </div>
-
-  <div class="card">
-    <h3>Melena de León</h3>
-    <p>Apoyo para la mente y energía</p>
-    <a class="btn" href="https://wa.me/14255082960?text=Hola%20quiero%20comprar%20Melena%20de%20Leon">Comprar por WhatsApp</a>
-  </div>
-
-  <div class="card">
-    <h3>Ashwagandha</h3>
-    <p>Ayuda al equilibrio del cuerpo</p>
-    <a class="btn" href="https://wa.me/14255082960?text=Hola%20quiero%20comprar%20Ashwagandha">Comprar por WhatsApp</a>
-  </div>
+<a href="#productos" class="boton">
+Ver Catálogo
+</a>
 
 </section>
 
-<footer>
-  <p>© 2026 Ismereli Naturals - Todos los derechos reservados</p>
+<section class="buscador">
+
+<input
+type="text"
+placeholder="🔍 Buscar producto..."
+id="buscar">
+
+</section>
+
+<section id="productos">
+
+<h2>Nuestros Productos</h2>
+
+<div class="grid">
+
+<div class="producto">
+
+<h3>FT-Elym DTX Oxigen</h3>
+
+<p>$49.90 USD</p>
+
+<a href="https://wa.me/14255082960?text=Hola%20quiero%20comprar%20FT-Elym%20DTX%20Oxigen">
+
+Comprar
+
+</a>
+
+</div>
+
+<div class="producto">
+
+<h3>Origen Café</h3>
+
+<p>$49.90 USD</p>
+
+<a href="https://wa.me/14255082960?text=Hola%20quiero%20comprar%20Origen%20Cafe">
+
+Comprar
+
+</a>
+
+</div>
+
+<div class="producto">
+
+<h3>My Belly-t</h3>
+
+<p>$49.90 USD</p>
+
+<a href="https://wa.me/14255082960?text=Hola%20quiero%20comprar%20My%20Belly-t">
+
+Comprar
+
+</a>
+
+</div>
+
+<div class="producto">
+
+<h3>Prana</h3>
+
+<p>$49.90 USD</p>
+
+<a href="https://wa.me/14255082960?text=Hola%20quiero%20comprar%20Prana">
+
+Comprar
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="nosotros">
+
+<h2>¿Quiénes Somos?</h2>
+
+<p>
+
+En Ismereli Naturals creemos en el bienestar integral mediante suplementos alimenticios elaborados con ingredientes cuidadosamente seleccionados para apoyar un estilo de vida saludable.
+
+</p>
+
+</section>
+
+<footer id="contacto">
+
+<h3>Contáctanos</h3>
+
+<p>WhatsApp: +1 (425) 508-2960</p>
+
+<p>© 2026 Ismereli Naturals</p>
+
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
